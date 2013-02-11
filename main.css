@@ -1,0 +1,671 @@
+body
+{
+	background: #EEE;
+	font: normal 12px/15px 'Open Sans', Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#header
+{
+	background-color: #eee;
+	border-bottom: 1px solid #999;
+	box-shadow: inset 0px -5px 30px 2px #C9C9C9;
+	color: #333;
+	margin: 0;
+	min-height: 151px;
+	moz-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
+	ms-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
+	o-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
+	padding: 0.25em 1em 0;
+	webkit-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
+}
+header span
+{
+	float: right;
+}
+#header h1
+{
+	clear: both;
+	font-size: 2.5em;
+	font-weight: 400;
+	text-shadow: rgba(255,255,255,.7) 0 1px 0, rgba(0,0,0,.2) 0 -1px 0;
+}
+.summary a
+{
+	color: #369;
+	text-decoration: underline;
+}
+.summary a:hover
+{
+	color: #69c;
+}
+#header .logo
+{
+	background: transparent url("http://media4.s-nbcnews.com/i/MSNBC/Components/Interactives/_swf/News/FlashpointMap/GIA_nbcnewslogo.png") 0 7px no-repeat;
+	cursor: pointer;
+	float: left;
+	height: 28px;
+	position: relative;
+	top: -10px;
+	width: 110px;
+}
+.breadcrumbs
+{
+	position: relative;
+	top: 0.75em;
+}
+.breadcrumbs .parent
+{
+	border-bottom: 1px dotted #369;
+	color: #369;
+	cursor: pointer;
+	font-weight: 400;
+}
+.breadcrumbs .parent:hover
+{
+	border-color: #69c;
+	color: #69c;
+}
+.breadcrumbs .parent span
+{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.summary
+{
+	display: inline-block;
+	font-size: 13px;
+	line-height: 18px;
+	max-width: 680px;
+	position: relative;
+	top: -10px;
+	width: 76%;
+}
+.share
+{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+.share li
+{
+	list-style: none;
+	margin-top: 10px;
+}
+#pane
+{
+	bottom: 0px;
+	overflow: hidden;
+	position: fixed;
+	top: 155px;
+	width: 100%;
+}
+#map
+{
+	bottom: 0px;
+	left: 0;
+	moz-transition: opacity 250ms;
+	position: absolute;
+	right: 20%;
+	top: 0px;
+	transition: opacity 250ms;
+	webkit-transition: opacity 250ms;
+}
+#legend
+{
+	background: white;
+	border-radius: 5px;
+	bottom: 46px;
+	filter: alpha(opacity=90);
+	font-size: 13px;
+	left: 13px;
+	line-height: 20px;
+	opacity: .9;
+	padding: 11px;
+	position: absolute;
+}
+header
+{
+	background: #999;
+	color: white;
+}
+article
+{
+	background: #fff;
+	bottom: 0;
+	box-shadow: -1px 6px 10px #333;
+	min-width: 280px;
+	moz-box-shadow: -1px 6px 10px #333;
+	overflow: auto;
+	position: absolute;
+	right: 0;
+	top: 155px;
+	webkit-box-shadow: -1px 6px 10px #333;
+	width: 20%;
+}
+article header,
+article section
+{
+	border-bottom: 1px solid #ddd;
+	padding: 7px 15px 9px;
+}
+article section
+{
+	cursor: pointer;
+}
+article section.active
+{
+	background: #26c;
+	color: #fff;
+}
+article h1, article h2
+{
+	margin: 0;
+}
+article h2
+{
+	font-weight: normal;
+	padding-bottom: 0.3em;
+}
+article h2 span
+{
+	background: rgba(0,0,0,0.1) url(http://media3.s-nbcnews.com/i/MSNBC/Components/Interactives/Maps/Gun_Violence_map/time.png) no-repeat 58px 7px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+	margin: 0.5em 0 1em 0;
+	moz-border-radius: 5px;
+	moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+	padding: 0.35em;
+	text-align: center;
+	webkit-border-radius: 5px;
+	webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+}
+section h2 span
+{
+	display: block;
+	font-size: 0.7em;
+}
+#footer
+{
+	background: #333;
+	bottom: 0;
+	color: #eee;
+	height: 30px;
+	padding-left: 13px;
+	position: fixed;
+	width: 100%;
+}
+#credit
+{
+	margin-top: 7px;
+}
+#credit a
+{
+	border-bottom: 1px dotted #FFF;
+}
+#credit a:hover
+{
+	color: #aaa;
+	border-bottom: 1px dotted #aaa;
+}
+article .tooltip
+{
+	color: #777;
+	display: block;
+}
+article .tooltip.image,
+ article p,
+ article .tooltip b,
+ article small.tooltip,
+ article .pic small.tooltip
+{
+	display: none;
+}
+article section.active .tooltip
+{
+	color: white;
+}
+section.active a
+{
+	color: #111;
+}
+section.active
+{
+	background: #fff;
+}
+section.active small
+{
+	color: #666;
+	display: none;
+}
+h1
+{
+	font-size: 1.7em;
+}
+h2
+{
+	font-size: 1.3333em;
+}
+h1,h2
+{
+	line-height: 1.3em;
+	margin: 0px 0px 10px;
+}
+p
+{
+	margin: 0px;
+}
+small.tooltip
+{
+	color: #777;
+	display: none;
+	padding-top: 10px;
+}
+.pic small.tooltip
+{
+	display: block;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+#footer p
+{
+	margin-bottom: 10px;
+}
+.swatch
+{
+	border-radius: 50%;
+	display: inline-block;
+	height: 10px;
+	margin-left: 0.3em;
+	margin-right: 0.1em;
+	width: 10px;
+}
+.swatch.unclassified
+{
+	background: #9d9d9d;
+}
+.swatch.police
+{
+	background: #88b55b;
+}
+.swatch.accidental
+{
+	background: #fcdb12;
+}
+.swatch.suicide
+{
+	background: #715bb5;
+}
+.swatch.murdersuicide
+{
+	background: #8ac;
+}
+.swatch.homicide
+{
+	background: #b35c5c;
+}
+.swatch.selfdefense
+{
+	background: #d89826;
+}
+.image
+{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+	float: left;
+	clear: left;
+	height: 69px;
+	margin: 0px 15px 12px 0px;
+	width: 92px;
+}
+.pic .image
+{
+	display: block;
+}
+.spot-buffalo1 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case01-Christopher-Cotton-mug-CROP.thumb-m.jpg);
+}
+.spot-tillamook3 .image
+{
+	background-image: url(http://media2.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case03-Jacob-Allen-Green.thumb-m.jpg);
+}
+.spot-tillamook3 .image2
+{
+	background-image: url(http://media1.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case03-Kayla-Ann-Hendrickson.thumb-m.jpg);
+}
+.spot-hampton4 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case04_Clifton_Christian_low_rez-CROP.thumb-m.jpg);
+}
+.spot-allentown5 .image
+{
+	background-image: url(http://media1.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case05_kyle-stroman-jr-mug-low-rez.thumb-m.jpg);
+}
+.spot-southvalley9 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case09-griego-family-dad.thumb-m.jpg);
+}
+.spot-moscow12 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case12_Jason_Monson.thumb-m.jpg);
+}
+.spot-cleveland13 .image
+{
+	background-image: url(http://media1.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case13-nevaeh-benson-mug-01-CROP.thumb-m.jpg);
+}
+.spot-memphis22 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case22-rene-trejo-crop.thumb-m.jpg);
+}
+.spot-torrance35 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case35-Devin-Scandore-2jpg.jpeg,thumb-m.jpg);
+}
+.spot-hughescounty39 .image
+{
+	background-image: url(http://media4.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case39-michael-eric-morris.thumb-m.jpg);
+}
+.spot-bradenton44 .image
+{
+	background-image: url(http://media2.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case44-james-brady-mug-crop.thumb-m.jpg);
+}
+.spot-warwick47 .image
+{
+	background-image: url(http://media1.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case47-colleen-william-liebrich.thumb-m.jpg);
+}
+.spot-sanfrancisco49 .image
+{
+	background-image: url(http://media1.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case49-daniel-colon-low-rez-crop.thumb-m.jpg);
+}
+.spot-bouldercity56 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case56_Hans_Walters.thumb-m.jpg);
+}
+.spot-bouldercity56 .image2
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case56_Michelle_Walters.thumb-m.jpg);
+}
+.spot-cocoa57 .image
+{
+	background-image: url(http://media4.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case57_Lydia_Bradford.thumb-m.jpg);
+}
+.spot-savannah59 .image
+{
+	background-image: url(http://media4.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case59_Rebecca_Foley_04.thumb-m.jpg);
+}
+.spot-batonrouge61 .image
+{
+	background-image: url(http://media4.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case61-travin-varise.thumb-m.jpg);
+}
+.spot-elkhorn62 .image
+{
+	background-image: url(http://media2.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case62-alfredo-villereal.thumb-m.jpg);
+}
+.spot-portallen63 .image
+{
+	background-image: url(http://media4.s-nbcnews.com/j/MSNBC/Components/Photo/_new/Case63_Ray_Charles_Hayes.thumb-m.jpg);
+}
+.spot-pittsburg64 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case64-steven-rosalez-01-family-crop.thumb-m.jpg);
+}
+.spot-jasper68 .image
+{
+	background-image: url(http://media3.s-nbcnews.com/j/MSNBC/Components/Photo/_new/case68-pamela-jo-provenzano-crop.thumb-m.jpg);
+}
+.spot
+{
+	background: #8ac;
+	border-radius: 50%;
+	cursor: pointer;
+	filter: alpha(opacity=75);
+	height: 25px;
+	margin: -25px 0px 0px -25px;
+	opacity: .75;
+	pointer-events: all;
+	position: absolute;
+	width: 25px;
+}
+.spot.active
+{
+	filter: none;
+	opacity: 1;
+}
+.spot.death1
+{
+	height: 25px;
+	margin: -13px 0px 0px -13px;
+	width: 25px;
+	z-index: 5;
+}
+.spot.death2
+{
+	height: 40px;
+	margin: -20px 0px 0px -20px;
+	width: 40px;
+	z-index: 4;
+}
+.spot.death3
+{
+	height: 55px;
+	margin: -27px 0px 0px -27px;
+	width: 55px;
+	z-index: 3;
+}
+.spot.death5
+{
+	height: 70px;
+	margin: -35px 0px 0px -35px;
+	width: 70px;
+	z-index: 2;
+}
+.spot section
+{
+	background: #fff;
+	border-radius: 5px;
+	bottom: 100%;
+	box-shadow: -1px 3px 10px #888;
+	color: #red;
+	display: none;
+	left: 50%;
+	line-height: 1.4em;
+	margin: 0px 0px 10px -150px;
+	moz-box-shadow: -1px 3px 10px #888;
+	padding: 20px;
+	position: absolute;
+	text-shadow: rgba(255,255,255,0.25) 0px 0px 4px;
+	webkit-box-shadow: -1px 3px 10px #888;
+	width: 260px;
+}
+.spot section p
+{
+	margin-bottom: 5px;
+}
+.spot section:before
+{
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #fff;
+	content: '';
+	left: 50%;
+	margin: 0px 0px 0px -15px;
+	position: absolute;
+	top: 100%;
+}
+.spot.active
+{
+	z-index: 9999;
+}
+.spot.active section
+{
+	display: block;
+}
+.close-popout
+{
+	right: 0px;
+	top: 0px;
+	padding: 0.5em;
+	color: #aaa;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	position: absolute;	
+}
+.close-popout:hover
+{
+	color: #000;
+}
+p.tooltip
+{
+	clear: both;
+	margin-bottom: 0!important;
+}
+article section.unclassified.active, .spot.unclassified
+{
+	background: #9d9d9d;
+}
+article section.police.active, .spot.police
+{
+	background: #88b55b;
+}
+.spot.accidental
+{
+	background: #fcdb12;
+}
+article section.accidental.active
+{
+	background: #ddc024;
+}
+article section.suicide.active, .spot.suicide
+{
+	background: #715bb5;
+}
+article section.murdersuicide.active, .spot.murdersuicide
+{
+	background: #8ac;
+}
+article section.homicide.active, .spot.homicide
+{
+	background: #b35c5c;
+}
+article section.selfdefense.active, .spot.selfdefense
+{
+	background: #d89826;
+}
+.ir
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 0;
+	direction: ltr;
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	text-indent: -999em;
+}
+.zoomin
+{
+	margin-right: 10px;
+}
+.zoomout
+{
+	margin-right: 39px;
+}
+@media (max-width:640px)
+{
+	body
+	{
+		font-size: 11px;
+		line-height: 15px;
+	}
+	#header
+	{
+		min-height: 95px;
+	}
+	#header h1
+	{
+		font-size: 2em;
+	}
+	.share
+	{
+		height: 25px;
+		margin-bottom: 0px;
+		padding-left: 0px;
+		position: relative;
+		right: auto;
+	}
+	.share li
+	{
+		float: left;
+		margin-right: 10px;
+		margin-top: 0px;
+	}
+	article,
+		.summary, 
+		#legend,
+		#footer,
+		small.tooltip,
+		.pic .image,
+		section p,
+		section p b,
+		.pic small.tooltip,
+		.share li+li+li
+	{
+		display: none;
+	}
+	p.tooltip
+	{
+		display: block;
+	}
+	#pane
+	{
+		top: 99px;
+		width: 100%;
+	}
+	#map
+	{
+		bottom: 0%;
+		height: 150%;
+		left: 0%;
+		width: 100%;
+	}
+	.spot
+	{
+		background: #b35c5c!important;
+		height: 22px!important;
+		margin: -11px 0 0 -11px!important;
+		opacity: .8;
+		width: 22px!important;
+	}
+	.spot section
+	{
+		margin-left: -120px;
+		width: 200px;
+	}
+	h2
+	{
+		margin-bottom: 5px;
+	}
+	.zoomer
+	{
+		right: 0px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	#header
+	{
+		display: none;
+	}
+	#pane
+	{
+		top: 0px;
+	}
+}
