@@ -9,7 +9,7 @@
 <meta name="description" content="Beginning at 12:01 a.m. on Jan. 19, NBC News tallied every known gun death across the U.S., stopping at midnight on Martin Luther King, Jr. Day, Monday, Jan. 21— a day the gun debate again made national headlines as part of President Obama’s inaugural address. This interactive map shows all the gun deaths we uncovered. Part of the Flashpoint: Guns in America series">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
-<link href="http://www.nbcnews.com/id/50742861" rel='stylesheet' type='text/css'> 
+<link href="http://www.nbcnews.com/id/50742861" rel='stylesheet' type='text/css'>
 
 <!--<link href="main.css" rel='stylesheet' type='text/css'>-->
 <!--[if lt IE 9]>
@@ -52,55 +52,55 @@ params.source = "";
 params.zipCode = "";
 params.deviceType = "desktop";
 params.isOriginalContent = true;
- 
+
 EventTracker().track(params);
 </script>
 
 <div id='header'>
   <p class="breadcrumbs">
-    <a class="logo ir" href="http://www.nbcnews.com">NBCNews.com</a> / <a class="parent" href="http://usnews.nbcnews.com/flashpoint"><span>Flashpoint:</span> Guns in America</a> 
+   <a class="logo ir" href="http://www.nbcnews.com">NBCNews.com</a> / <a class="parent" href="http://usnews.nbcnews.com/flashpoint"><span>Flashpoint:</span> Guns in America</a>
   </p>
-	<h1>Long weekend of gun deaths</h1>
-	<p class="summary">Beginning at 12:01 a.m. on Jan. 19, NBC News tallied every known gun death across the U.S., stopping at midnight on Martin Luther King, Jr. Day, Monday, Jan. 21— a day the gun debate again made national headlines as part of President Obama’s inaugural address. This interactive map shows all the gun deaths we uncovered. <a href="http://usnews.nbcnews.com/flashpoint">Go here for our complete coverage.</a></p>
-	<ul class="share">
-		<li>
-		<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-action="recommend"></div>
-		</li>
-		<li>
-		<div><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en">Tweet</a></div>
-		</li>
-		<li>
-		<div><g:plusone size="medium" data-annotation="bubble" recommendations="false"></g:plusone></div>
-		<script type="text/javascript">
-		      window.___gcfg = {
-		        lang: 'en-US'
-		      };
+  <h1>Long weekend of gun deaths</h1>
+  <p class="summary">Beginning at 12:01 a.m. on Jan. 19, NBC News tallied every known gun death across the U.S., stopping at midnight on Martin Luther King, Jr. Day, Monday, Jan. 21— a day the gun debate again made national headlines as part of President Obama’s inaugural address. This interactive map shows all the gun deaths we uncovered. <a href="http://usnews.nbcnews.com/flashpoint">Go here for our complete coverage.</a></p>
+  <ul class="share">
+    <li>
+    <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-action="recommend"></div>
+    </li>
+    <li>
+    <div><a href="https://twitter.com/share" class="twitter-share-button" data-via="twitterapi" data-lang="en">Tweet</a></div>
+    </li>
+    <li>
+    <div><g:plusone size="medium" data-annotation="bubble" recommendations="false"></g:plusone></div>
+    <script type="text/javascript">
+        window.___gcfg = {
+          lang: 'en-US'
+        };
 
-		      (function() {
-		        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-		        po.src = 'https://apis.google.com/js/plusone.js';
-		        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-		      })();
-		    </script>
-		</li> 
-		</ul>
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+       </script>
+    </li>
+    </ul>
 </div>
-<div id='pane'>  
-    <div id='map'></div>
- <div id='legend'>    
+<div id='pane'>
+   <div id='map'></div>
+ <div id='legend'>
   <form id="legend-form">
-   <input checked="checked" value="accidental" type="checkbox"><span class='swatch accidental'></span> Accidental shooting</input><br/>
-   <input checked="checked" value="homicide" type="checkbox"><span class='swatch homicide'></span> Homicide</input><br/>
-   <input checked="checked" value="murdersuicide" type="checkbox"><span class='swatch murdersuicide'></span> Murder-suicide</input><br/>
-   <input checked="checked" value="police" type="checkbox"><span class='swatch police'></span> Police shooting</input><br/>
-   <input checked="checked" value="selfdefense" type="checkbox"><span class='swatch selfdefense'></span> Self-defense</input><br/>
-   <input checked="checked" value="suicide" type="checkbox"><span class='swatch suicide'></span> Suicide</input><br/>
-   <input checked="checked" value="unclassified" type="checkbox"><span class='swatch unclassified'></span> Unclassified or open investigation</input><br/>
+  <input checked="checked" value="accidental" type="checkbox"><span class='swatch accidental'></span> Accidental shooting</input><br/>
+  <input checked="checked" value="homicide" type="checkbox"><span class='swatch homicide'></span> Homicide</input><br/>
+  <input checked="checked" value="murdersuicide" type="checkbox"><span class='swatch murdersuicide'></span> Murder-suicide</input><br/>
+  <input checked="checked" value="police" type="checkbox"><span class='swatch police'></span> Police shooting</input><br/>
+  <input checked="checked" value="selfdefense" type="checkbox"><span class='swatch selfdefense'></span> Self-defense</input><br/>
+  <input checked="checked" value="suicide" type="checkbox"><span class='swatch suicide'></span> Suicide</input><br/>
+  <input checked="checked" value="unclassified" type="checkbox"><span class='swatch unclassified'></span> Unclassified or open investigation</input><br/>
   </form>
-    </div>
+   </div>
 </div>
 <div id="footer">
-<div id="credit">CREDITS: <a href="http://www.nbcnews.com">NBC News</a> and <a href="https://twitter.com/GunDeaths">@GunDeaths</a> Twitter feed / Map powered by <a href="http://mapbox.com/about/maps/">MapBox</a> / <a href="mailto:bill.dedman@msnbc.com?Subject=Gun map">Send us feedback</a></div> 
+<div id="credit">CREDITS: <a href="http://www.nbcnews.com">NBC News</a> and <a href="https://twitter.com/GunDeaths">@GunDeaths</a> Twitter feed / Map powered by <a href="http://mapbox.com/about/maps/">MapBox</a> / <a href="mailto:bill.dedman@msnbc.com?Subject=Gun map">Send us feedback</a></div>
 </div>
 <article>
 <header>Click on a circle for details <span>[ All times ET ]</span></header>
@@ -121,7 +121,7 @@ Image: Christopher Cotton
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Burns was killed and another man wounded during an altercation involving four men in an East Side nightspot, the Phase III Lounge, according to police. Burns died of a gunshot wound to the chest, and a second man was treated for a leg wound. Three men and a juvenile have been arrested.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='tillamook3' class='murdersuicide death2 pic' data-lon='-123.8428' data-lat='45.4564'>
@@ -162,7 +162,7 @@ Image: Kyle J. Strowman Jr.
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>McGaughy, a mother of four, was shot multiple times inside her home. A man taken into custody a short time later has since been released.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='washington7' class='homicide death1 ' data-lon='-77.03' data-lat='38.89'>
@@ -172,7 +172,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Metro Police are offering a reward of up to $25,000 for information leading to the arrest in the shooting death of McFadden on the city's Northwest side, near Howard University Hospital.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='mcdonough8' class='accidental death1 ' data-lon='-84.1468616' data-lat='33.4473361'>
@@ -182,7 +182,7 @@ Image:
 <p><b>Incident type: </b>Accidental shooting</p><p><b>Weapon(s): </b>.38-caliber revolver</p>
 <p class='tooltip'><b>Summary: </b>A 14-year-old Georgia youth accidentally shot his 15-year-old brother to death when they were handling their mother's handgun in their home. The gun had been unloaded earlier in the evening. Officials have not decided whether to charge anyone. The names of the boys have not been released.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='gresham9' class='accidental death1 ' data-lon='-122.4367058' data-lat='45.5067406'>
@@ -192,7 +192,7 @@ Image:
 <p><b>Incident type: </b>Accidental shooting</p><p><b>Weapon(s): </b>Shotgun</p>
 <p class='tooltip'><b>Summary: </b>Dennehy died when a shotgun accidentally discharged in his home. Gresham police said a friend of the deceased who was present at the shooting cooperated with the investigation, and no charges are expected to be filed.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='southvalley10' class='homicide death5 pic' data-lon='-106.6780809' data-lat='35.0100487'>
@@ -215,7 +215,7 @@ Images: Greg Griego | Sarah and Angelina Griego | Jael Griego | Zephaniah Griego
 <p><b>Incident type: </b>Accidental shooting</p><p><b>Weapon(s): </b>.22-caliber rifle</p>
 <p class='tooltip'><b>Summary: </b>Tyler Washington, 19, is accused of carelessly operating the loaded firearm seconds before the gun discharged, striking the victim, police said. He has been charged with negligent homicide.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='stlouis12' class='police death1 ' data-lon='-90.1978889' data-lat='38.6272733'>
@@ -225,7 +225,7 @@ Image:
 <p><b>Incident type: </b>Police shooting</p><p><b>Weapon(s): </b>Police service weapon</p>
 <p class='tooltip'><b>Summary: </b>A 21-year veteran police officer working security shot and killed Donovan, who officers said was brandishing a replica gun at a White Castle. Police suspect the victim may have previously robbed the restaurant.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='moscow13' class='suicide death1 pic' data-lon='-117.0001651' data-lat='46.7323875'>
@@ -245,7 +245,7 @@ Image: Jason Monson
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Gonzales was picking up his children for visitation from his ex-wife's home, when they got into an argument and a man came into the room and shot him several times, police said. The Fort Worth Star-Telegram reported that Clint Weldon Wilson, 31, of Sulphur Springs, Texas, was charged with murder, possession of a firearm by a felon and theft of a firearm.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='cleveland15' class='accidental death1 pic' data-lon='-81.6778691' data-lat='41.4871888'>
@@ -265,7 +265,7 @@ Image: Navaeh Benson
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Stubblefield was found dead of a gunshot wound, police said. No arrest has been made.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='sanleandro17' class='homicide death1 ' data-lon='-122.1675374' data-lat='37.704815'>
@@ -275,7 +275,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Seets was shot and killed in crossfire between two groups of armed gang rivals at a Bay Area Rapid Transit station, police said. An unidentified woman also was wounded by a stray bullet. One person was arrested, and police are looking for others.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='idahofalls18' class='homicide death1 ' data-lon='-112.0846153' data-lat='43.493873'>
@@ -285,7 +285,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Aschliman was shot multiple times, police said. Her car was found stuck in the snow nearby. Adan Arroyo, 22, was arrested and charged with first-degree murder, according to local media reports.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='fortwayne19' class='homicide death1 ' data-lon='-85.1386015' data-lat='41.0799898'>
@@ -295,7 +295,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Foster was found shot dead in a car while a second man who was wounded was located inside a nearby apartment building, police said. No arrest has been made.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='longbeach20' class='homicide death1 ' data-lon='-118.1884871' data-lat='33.7774658'>
@@ -305,7 +305,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Three men and a woman burst into a home, opened fire and fled, according to police. Vidal was killed, and a second 28-year-old man was wounded. No arrest has been made, and the motive is unknown.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='sanfrancisco21' class='homicide death1 ' data-lon='-122.3912596' data-lat='37.7340974'>
@@ -315,7 +315,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Gaines was shot multiple times while driving his car, police said. Gaines attempted to drive away but crashed his vehicle. He died of gunshot wounds shortly after. Carnell Taylor Jr., 24, was arrested three days later and charged with murder, shooting into a motor vehicle, and possession of a firearm by a felon, according to local media reports. He has pleaded not guilty.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='greenville22' class='homicide death1 ' data-lon='-82.3985105' data-lat='34.8512316'>
@@ -325,7 +325,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Goldsmith was shot and killed in a parking lot outside an apartment complex, police said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='thomasville23' class='selfdefense death1 ' data-lon='-80.0819879' data-lat='35.8826369'>
@@ -335,7 +335,7 @@ Image:
 <p><b>Incident type: </b>Self-defense</p><p><b>Weapon(s): </b>.22-caliber rifle</p>
 <p class='tooltip'><b>Summary: </b>Braswell was beating up his girlfriend when her father shot him with a .22 rifle, police said. The shooting was ruled justified, but the girlfriend's father, Clifton Dennis, 56, was charged with possession of a firearm by a convicted felon.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='memphis24' class='homicide death1 pic' data-lon='-90.0516285' data-lat='35.1490215'>
@@ -355,7 +355,7 @@ Image: Rene Trejo
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Handguns</p>
 <p class='tooltip'><b>Summary: </b>Jackson was found by the side of a rural road with numerous gunshot wounds. Police later arrested his cousin, Jeremy Davis, 29, and Nicholas Ryan Hollaway, 23, and charged them with murdering him in a money dispute.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='grapevine26' class='murdersuicide death2 ' data-lon='-97.06737195' data-lat='32.936068'>
@@ -365,7 +365,7 @@ Image:
 <p><b>Incident type: </b>Murder-suicide</p><p><b>Weapon(s): </b>9mm semi-automatic handgun</p>
 <p class='tooltip'><b>Summary: </b>Kelly Suckla shot and killed his estranged wife, Krista Suckla, at their daughter's 17th birthday before shooting himself, dying instantly, police said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='picayune27' class='homicide death1 ' data-lon='-89.67922824' data-lat='30.5266'>
@@ -375,7 +375,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>.22-caliber pistol, legally owned</p>
 <p class='tooltip'><b>Summary: </b>Sullivan and his ex-girlfriend, Alina Lamey, 38, were having an argument about a dog when she shot him in the back a .22-caliber pistol, police say. Lamey has been charged with murder.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='princegeorgescounty28' class='homicide death1 pic' data-lon='-76.8518695' data-lat='38.803929'>
@@ -395,7 +395,7 @@ Image: Marcus Antonio Jones
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Crumby-Ford was shot in the chest at a small gathering at a private residence, police said. Jontae Maurice Barnes, 19, of Sharon was arrested and charged with involuntary manslaughter and third-degree murder. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='tularecounty30' class='homicide death1 ' data-lon='-118.7962661' data-lat='36.26992445'>
@@ -405,7 +405,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>California Highway Patrol officers stopped a vehicle for a traffic violation and found Lopez with a gunshot wound to the head, according to police reports. A second victim in the vehicle was treated at a nearby hospital for gunshot wounds and released. No arrest has been made.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='montgomery31' class='homicide death1 ' data-lon='-86.27316602' data-lat='32.343799'>
@@ -415,7 +415,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Chambliss was shot several times. Officers determined that Chambliss had been in an altercation. A suspect, Michael Alexander Jr., 18, was arrested and charged with one count of murder.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='losangeles32' class='homicide death1 ' data-lon='-118.2419714' data-lat='34.0501713'>
@@ -425,7 +425,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Police found Mancilla on the sidewalk with gunshot wounds. Police say the shooter and Mancilla got into an altercation before the shooter pulled a handgun, shot Mancilla, and drove away in a white sedan. There has been no arrest.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='libertytownship33' class='suicide death1 ' data-lon='-82.61255985' data-lat='40.156589'>
@@ -435,7 +435,7 @@ Image:
 <p><b>Incident type: </b>Suicide</p><p><b>Weapon(s): </b>Ruger 9mm handgun</p>
 <p class='tooltip'><b>Summary: </b>Police say Crego was drinking and taking prescription pain pills at the residence he shared with his girlfriend of three years before shooting her in the back. When the girlfriend ran to a neighbor's house to call police, Crego walked into the driveway and fatally shot himself, police said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='kansascity34' class='homicide death1 ' data-lon='-94.6272' data-lat='39.1142'>
@@ -445,7 +445,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b> Police say they found Franklin dead in his car on North Seventh Avenue in what appears to have been an incident of gang violence. Police say some arrests have been made, but have not released any information.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='dallas35' class='homicide death1 ' data-lon='-96.8000082' data-lat='32.7801052'>
@@ -455,7 +455,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Warren and a second person pulled into a Dallas-area gas station and while the second individual was inside, Warren apparently became involved in an altercation with another man who had pulled into the station in a Cadillac sedan and was fatally shot, police said. The shooting was caught on a station security camera, but no arrest has been made.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='santaana36' class='homicide death1 ' data-lon='-117.8620053' data-lat='33.7490525'>
@@ -465,7 +465,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Believed to be a handgun</p>
 <p class='tooltip'><b>Summary: </b>Police said a fight between rival gangs led to the shooting of Gonzalez. Evidence suggested other people might have been wounded. Gonzalez was a documented gang member, according to the Santa Ana Police Department.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='parkhills37' class='murdersuicide death2 ' data-lon='-90.5181804' data-lat='37.854218'>
@@ -475,7 +475,7 @@ Image:
 <p><b>Incident type: </b>Murder-Suicide</p><p><b>Weapon(s): </b>.45-caliber Kimber pistol</p>
 <p class='tooltip'><b>Summary: </b>Gillam and Edwards appear to have gotten into a dispute over a woman that one or both of them were involved with, according to a county prosecutor. The argument escalated into a physical assault, with Edwards believed to be the aggressor, the prosecutor said. Gillam apparently then pulled a handgun and shot Edwards twice before turning the gun on himself, he said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='pascagoula38' class='homicide death1 ' data-lon='-88.54910058' data-lat='30.362517'>
@@ -485,7 +485,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Believed to be a small handgun</p>
 <p class='tooltip'><b>Summary: </b>Half-brothers Parker and Alfred Durden Jr., 46, were walking way home when they were accosted by a gunman, police said. Durden pretended to be dead after being hit in the head as the man shot Parker multiple times. Pascagoula police Capt. Davy Davis said the alleged shooter, Adrian Orville Moore, was out on bail awaiting trial on charges he shot a neighbor, Jackie C. Davis. Moore is now being held on $1 million bail for first-degree murder and aggravated assault. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='torrance39' class='homicide death1 pic' data-lon='-118.3406288' data-lat='33.8358492'>
@@ -505,7 +505,7 @@ Image: Devin Scandore
 <p><b>Incident type: </b>Homicide </p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>After an altercation in the parking lot of the Platinum Gentleman’s Club, Whitney shot Mitchell, an Army private at nearby Fort Sill, according to police. Mitchell was with a group of fellow soldiers at the club. After shooting Mitchell, Whitney was tackled by a security guard, who, after being threatened, used a gun of his own to shoot and kill Whitney, police said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='syracuse41' class='homicide death1 ' data-lon='-76.1474244' data-lat='43.0481221'>
@@ -515,7 +515,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Suspect Shala Williams, 31, got into an argument at a party with Jenkins, who appears to have been his cousin, according to police. Several hours after that altercation, Williams returned and fired into a bedroom where Jenkins was with his girlfriend, Neisha Baker, 23, police said. Jenkins was killed and Baker was treated at a local hospital and released. Williams has been arrested and charged with second-degree murder and other charges.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='batonrouge42' class='homicide death1 ' data-lon='-91.154551' data-lat='30.4507462'>
@@ -526,7 +526,7 @@ Image:
 <p class='tooltip'><b>Summary: </b>Wright was found in the middle of Hooper Road by officers responding to reports of a shooting following a fight, police said. While several potential suspects have been questioned, there has been no arrest.
 </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='philadelphia43' class='homicide death1 ' data-lon='-75.163789' data-lat='39.952335'>
@@ -536,7 +536,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Tyree Thomas, 25, was shot twice in the chest around 5 a.m. Sunday morning inside a home in the Kingsessing neighborhood, police said. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='hughescounty44' class='unclassified death1 pic' data-lon='-96.29248698' data-lat='35.029318'>
@@ -557,7 +557,7 @@ Image: Michael Eric Morris
 <p><b>Incident type: </b>Self-defense</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Thompson, known as "Meatball" to friends and family, threatened to kill a man he encountered in a neighbor’s house, police said. Bystanders calmed things down and Thompson left, but he later fired at the man as he was leaving the home, and the man returned fire. The Jefferson County District Attorney’s Office ruled that the man shot in self-defense. The reason for the dispute was unclear. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='columbus46' class='homicide death1 ' data-lon='-83.0007065' data-lat='39.9622601'>
@@ -567,7 +567,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Police responded to call of shots fired at a home and found Holloway on the porch of his residence with multiple gunshot wounds. He was pronounced dead at a local hospital. No arrest has  been made. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='sacramento47' class='unclassified death1 ' data-lon='-121.4933' data-lat='38.5817'>
@@ -577,7 +577,7 @@ Image:
 <p><b>Incident type: </b>Unclassified or open investigation</p><p><b>Weapon(s): </b>.30-30 hunting rifle</p>
 <p class='tooltip'><b>Summary: </b>Sears was shot by a homeowner after coming onto the man’s property twice and threatening him and in some cases throwing items at him, including a cane, logs and a fireplace grate, police said. Sears was acting erratically and had a history of such behavior, police said. The couple who lived in the house did not know him. Police expect the shooting will be ruled a case of justifiable self defense, though that determination has not yet been made. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='philadelphia48' class='homicide death1 ' data-lon='-75.163789' data-lat='39.952335'>
@@ -588,7 +588,7 @@ Image:
 <p class='tooltip'><b>Summary: </b>Greer was shot in the head while sitting in the driver's seat of a Ford Windstar minivan by an unidentified robber, police said.
 </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='bradenton49' class='unclassified death1 pic' data-lon='-82.575' data-lat='27.4986'>
@@ -608,7 +608,7 @@ Image: James Brady
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Marrow was standing in a mobile home park when a gold-colored Nissan pulled up and one shot was fired from the vehicle, according to police. Marrow, who police believe was homeless, was found with a gunshot wound to the chest. No arrest has been made.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='downey51' class='homicide death1 ' data-lon='-118.1325688' data-lat='33.9400143'>
@@ -618,7 +618,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>A 25-year-old man was shot several times outside a restaurant.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='warwick52' class='murdersuicide death2 pic' data-lon='-71.4422164' data-lat='41.65042295'>
@@ -638,7 +638,7 @@ Image: Colleen and Willam Liebrich
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Catlett was shot dead on the street, police said. Tairon Dominique Dingle, 22, has been charged with first-degree murder and related charges in connection with his slaying.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='sanfrancisco54' class='homicide death1 pic' data-lon='-122.3912596' data-lat='37.7340974'>
@@ -658,7 +658,7 @@ Image: Daniel Colon
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Officers responding to a report of a person with a gun at a home said they found Thomas in the dining room with a gunshot wound to the left side of his head, police said. No arrest has been made. A woman at the home told officers she believed Thomas had been arguing with another man. The motive for the slaying is unknown.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='visalia56' class='homicide death1 ' data-lon='-119.2920585' data-lat='36.3302284'>
@@ -668,7 +668,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>St. Martin was found with gunshot wounds in his driveway. Edgar Lugo, 32, was arrested in the shooting. St. Martin had been dating the mother of Lugo's child and there was tension between the two men, police said. St. Martin's obituary said he was an electrical contractor and is survived by three children.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='longbeach57' class='homicide death1 ' data-lon='-118.1884871' data-lat='33.7774658'>
@@ -678,7 +678,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Hale was found dead of a gunshot wound to the upper body in his Gaviota Ave. home. No arrest has been made.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='jasper58' class='murdersuicide death2 pic' data-lon='-82.9483' data-lat='30.5181'>
@@ -698,7 +698,7 @@ Image: Pamela Jo Provenzano
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>.40-caliber handgun</p>
 <p class='tooltip'><b>Summary: </b>Rosas was found on the side of a road with multiple gunshot wounds, police said. No weapon was found, and no one has been arrested.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='hoover60' class='homicide death1 ' data-lon='-86.88322092' data-lat='33.350997'>
@@ -708,7 +708,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Schneider was shot dead at an apartment complex. The resident of the apartment, who knew the victim, was taken into custody but later released while prosecutors decide whether to charge him or bring the case to a grand jury, police said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='austin61' class='homicide death1 ' data-lon='-97.7428' data-lat='30.2669'>
@@ -718,7 +718,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Carson was shot in the chest and shoulder at an Austin auto repair shop, allegedly by his girlfriend’s estranged husband, Roy Rogers Soliz, 58, who was arrested a week later, police said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='bouldercity62' class='murdersuicide death3 pic' data-lon='-114.8324851' data-lat='35.9785912'>
@@ -749,7 +749,7 @@ Image: Lydia Bradford
 <p><b>Incident type: </b>Suicide</p><p><b>Weapon(s): </b>Shotgun</p>
 <p class='tooltip'><b>Summary: </b>Police responded to a call from Cook threatening suicide, according to a police spokesman. Officers talked to Cook, who had worked as an emergency medical technician with the local fire department before suffering a head injury about a year ago that prevented him from working, by phone until his cellphone battery died. He then killed himself with a shotgun, police said.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='barstow65' class='suicide death1 ' data-lon='-117.1005399' data-lat='34.8612115'>
@@ -759,7 +759,7 @@ Image:
 <p><b>Incident type: </b>Suicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Responders found Sanchez dead from an apparent self-inflicted gunshot wound, police said. Sanchez had served as union president of the American Federation of Government Employees at Marine Corps Logistics Base Barstow. A local newspaper reported that Sanchez had recently been accused  of lewd conduct with a minor, but NBC News could not confirm that.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='trenton66' class='homicide death1 pic' data-lon='-74.7429463' data-lat='40.2170575'>
@@ -779,7 +779,7 @@ Image: Andre Corbett
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Chenevert was found dead in her apartment of an apparent gunshot wound, police said. The case remains under investigation.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='grandrapids68' class='suicide death1 ' data-lon='-85.6680863' data-lat='42.9633599'>
@@ -789,7 +789,7 @@ Image:
 <p><b>Incident type: </b>Suicide</p><p><b>Weapon(s): </b>Handgun</p>
 <p class='tooltip'><b>Summary: </b>Cops who arrested a suspect in a 7/11 robbery were executing a search warrant at his home when Ruiz, his 19-year-old girlfriend, committed suicide, police said. A 2-month-old baby in the house was not injured.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='savannah69' class='homicide death1 pic' data-lon='-81.1038' data-lat='32.0507'>
@@ -849,7 +849,7 @@ Image: Alfredo Emilio Villarreal
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Unknown</p>
 <p class='tooltip'><b>Summary: </b>Jordan Melancon, 22, was shot about 60 yards from a recreation center named for Martin Luther King, Jr., and on the national holiday celebrating his legacy. Melancon, who had two children, didn’t realize initially that he had been shot, and walked about two blocks before collapsing, according to local media reports. Police said Jacob Ardoin, 21, was charged with second-degree murder in the shooting death. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='houston75' class='homicide death1 ' data-lon='-95.3631' data-lat='29.7631'>
@@ -859,7 +859,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>Springfield XD .40-caliber handgun </p>
 <p class='tooltip'><b>Summary: </b>Griffin was fatally shot during a backyard gathering after an argument about dog-fighting erupted and became physical, according to police reports. Police later arrested Joseph Allen Green, 29, of Crosby, Texas, and charged him with murder.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='antioch76' class='homicide death1 ' data-lon='-121.7936427' data-lat='37.9755365'>
@@ -869,7 +869,7 @@ Image:
 <p><b>Incident type: </b>Homicide</p><p><b>Weapon(s): </b>.40-caliber handgun</p>
 <p class='tooltip'><b>Summary: </b>A gang of robbers ambushed Calceta while he was riding his bike home from a bowling alley and shot him five times in the torso with a .40-caliber handgun, police said. No arrest has been made.</p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='montevista77' class='suicide death1 ' data-lon='-106.1485185' data-lat='37.5799013'>
@@ -879,7 +879,7 @@ Image:
 <p><b>Incident type: </b>Suicide</p><p><b>Weapon(s): </b>.380-caliber semi-automatic handgun</p>
 <p class='tooltip'><b>Summary: </b>Officers went to Proctor’s home to arrest him a day after he allegedly threatened someone with a firearm, according to police. Proctor refused to surrender, prompting authorities to evacuate nearby residences and call in a negotiator. After several hours, they entered the home around midnight and found Proctor dead. The shooting was ruled a suicide. </p>
 <small class='tooltip'>
-Image: 
+Image:
 </small>
 </section>
 <section id='pittsburg78' class='homicide death1 pic' data-lon='-121.8850312' data-lat='38.021408'>
@@ -903,18 +903,18 @@ var tiles = mapbox.layer().tilejson({
 var geojson = _(document.getElementsByTagName('section')).chain()
   // Generate geojson data from section elements.
   .map(function(el) {
-    var lon = el.getAttribute('data-lon');
-    var lat = el.getAttribute('data-lat');
-    if (!lon || !lat) return false;
-    return {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ parseFloat(lon), parseFloat(lat) ]
-      },
-      "properties": {
-        "id":el.id
-      }
-    };
+   var lon = el.getAttribute('data-lon');
+   var lat = el.getAttribute('data-lat');
+   if (!lon || !lat) return false;
+   return {
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ parseFloat(lon), parseFloat(lat) ]
+    },
+    "properties": {
+      "id":el.id
+    }
+   };
   })
   // Filter out any false values.
   .compact()
@@ -935,36 +935,45 @@ var spots = mapbox.markers.layer()
     el.innerHTML = '<section><div class="close-popout">x</div>' + document.getElementById(f.properties.id).innerHTML + '</section>';
 
     var setActive = function(e) {
-      // Remove active class from all markers, sections.
-      _(spots.markers()).each(function(m) {
-          m.element.className = m.element.className.replace(/\s+active/g, '')
-      });
-      _(document.getElementsByTagName('section')).each(function(s) {
-          s.className = s.className.replace(/\s+active/g, '')
-      });
+    // Remove active class from all markers, sections.
+    _(spots.markers()).each(function(m) {
+       m.element.className = m.element.className.replace(/\s+active/g, '')
+    });
+    _(document.getElementsByTagName('section')).each(function(s) {
+       s.className = s.className.replace(/\s+active/g, '')
+    });
 
-      // Add active class to clicked marker, section.
-      el.className += ' active';
-      section.className += ' active';
+    // Add active class to clicked marker, section.
+    el.className += ' active';
+    section.className += ' active';
 
-      // Pan the map to active marker.
-      map.ease.location({
-        lat: f.geometry.coordinates[1]+ 3.7,
-        lon: f.geometry.coordinates[0]
-      }).zoom(map.zoom()).optimal();
-      // Optionally use the code below and comment out the above
-      // to move the map without animation.
-      // map.centerzoom({
-      //   lat: f.geometry.coordinates[1],
-      //   lon: f.geometry.coordinates[0]
-      // }, map.zoom());
-    };
+    // Pan the map to active marker.
+    map.ease.location({
+      lat: f.geometry.coordinates[1]+ 3.7,
+      lon: f.geometry.coordinates[0]
+    }).zoom(map.zoom()).optimal();
 
-    // Add handlers for click, touchend for markers and click on sections.
-    MM.addEvent(el, 'click', setActive);
-    MM.addEvent(el, 'touchend', setActive);
-    section.onclick = setActive;
-    return el;
+    ArticleScrollChecker.disableScrollCheck(true);
+    $('article').scrollTop(
+      $(section).position().top + $('article').scrollTop()
+    );
+    setTimeout(function(){
+        ArticleScrollChecker.disableScrollCheck(false);
+    },10);
+
+    // Optionally use the code below and comment out the above
+    // to move the map without animation.
+    // map.centerzoom({
+    //  lat: f.geometry.coordinates[1],
+    //  lon: f.geometry.coordinates[0]
+    // }, map.zoom());
+  };
+
+  // Add handlers for click, touchend for markers and click on sections.
+  MM.addEvent(el, 'click', setActive);
+  MM.addEvent(el, 'touchend', setActive);
+  section.onclick = setActive;
+  return el;
   });
 
 var map = mapbox.map('map', [tiles, spots]);
@@ -972,201 +981,99 @@ map.setZoomRange(3, 7);
 map.centerzoom({lon:-96,lat:37}, 5);
 map.ui.zoomer.add();
 
-
-
 var ArticleScrollChecker = {
- 
- previousActive: 0,
- scrollTimeout: 0,
- scrollDelay: 50,
- sections: [],
- 
- initialize: function() {
-  //console.log( "::: initialize() :::" );
-  
-  this.initializeSections();
-  this.initializeHandlers();
-  
- },
- 
- initializeHandlers: function() {
-  //console.log( "::: initializeHandlers() :::" );
-  
-  var scope = this;
-  
-  $( "article" ).scroll( function(){
-   scope.handleArticleScroll();
-  });
-  
- },
- 
- initializeSections: function() {
-  //console.log( "::: initializeSections() :::" );
+  previousActive: 0,
+  scrollTimeout: 0,
+  scrollDelay: 50,
+  doScrollCheck: true,
+  sections: [],
 
-  this.sections = $( "article section" );
-   
- },
-      
- handleArticleScroll: function() {
-  //console.log( "::: handleArticleScroll() :::" );
-    
-  clearTimeout( this.scrollTimeout );
-  
-  var scope = this;
-  
-  this.scrollTimeout = setTimeout( function(){    
-   
-   var centered = scope.getSlideToHighlight();
+  initialize: function() {
+    //console.log( "::: initialize() :::" );
+    var scope = this;
 
-   if ( typeof( centered ) != "undefined" && centered != null ) {
-    scope.triggerClick( centered );
-   };
-   
-  }, scope.scrollDelay );
-  
-  /*
-  
-  var centered = this.getSlideToHighlight();
-  
-  if ( typeof( centered ) != "undefined" && centered != null ) {
-   this.triggerClick( centered );
-  };
-  
-  
-  */
-  
- },   
- 
- getSlideToHighlight: function(){
-  //console.log( "::: getSlideToHighlight() :::" );  
+    $( "article" ).scroll(function(){
+      scope.handleArticleScroll();
+    });
 
-  var scope = this;
-  var top = $( "article" ).scrollTop();
-  var winHeight = $( window ).height();
-  var centered = null;
-   
-  this.sections.each( function( s, section ){
-   
-   var sec = $( section );
-   var sectionTop = top + sec.offset().top - 170;
-   var sectionBottom = ( sec.height() > ( winHeight / 2 ) ) ? ( sectionTop + ( sec.height() / 4 ) ) : ( sectionTop + sec.height() ); 
-   
-   if( top > sectionTop && top < sectionBottom ){
-   
-    centered = s + 1;
-    return false; 
-         
-   }
+    this.sections = $("article section");
+  },
 
-  });
-  
-  return ( centered != null && typeof( centered ) != "undefined" ) ? centered : this.previousActive;
+  disableScrollCheck: function(state){
+    this.doScrollCheck = !state;
+  },
 
- },
- 
- triggerClick: function( index ){
-  //console.log( "::: triggerClick( " + index + " ) :::" );
-  
-  clearTimeout( this.scrollTimeout );
-  
-  if( index != this.previousActive ){
-   $( this.sections[ index ] ).trigger( "click" );
-   this.previousActive = index;
+  handleArticleScroll: function(disabled) {
+    //console.log( "::: handleArticleScroll() :::" );
+
+    clearTimeout( this.scrollTimeout );
+
+    if( this.doScrollCheck ){
+      var scope = this;
+
+      this.scrollTimeout = setTimeout( function(){
+        var centered = scope.getSlideToHighlight();
+
+        if ( typeof( centered ) != "undefined" && centered != null ) {
+          scope.triggerClick( centered );
+        };
+      }, scope.scrollDelay );
+    }
+  },
+
+  getSlideToHighlight: function(){
+    //console.log( "::: getSlideToHighlight() :::" );
+
+    var scope = this;
+    var top = $( "article" ).scrollTop();
+    var winHeight = $( window ).height();
+    var centered = null;
+
+    this.sections.each( function( s, section ){
+      var sec = $( section );
+      var sectionTop = top + sec.offset().top - 170;
+      var sectionBottom = ( sec.height() > ( winHeight / 2 ) ) ? ( sectionTop + ( sec.height() / 4 ) ) : ( sectionTop + sec.height() );
+
+      if( top > sectionTop && top < sectionBottom ){
+        centered = s + 1;
+        return false;
+      }
+    });
+
+    return ( centered != null && typeof( centered ) != "undefined" ) ? centered : this.previousActive;
+  },
+
+  triggerClick: function( index ){
+    //console.log( "::: triggerClick( " + index + " ) :::" );
+
+    clearTimeout( this.scrollTimeout );
+
+    if( index != this.previousActive ){
+      $( this.sections[ index ] ).trigger( "click" );
+      this.previousActive = index;
+    }
   }
-  
- }      
- 
 };
 
 function handleCheckbox( e ){
-  
- $( "#legend-form input[type=checkbox]" ).each( function( c, checkbox ){
-  
-  var isChecked = $( checkbox ).is( ':checked' );
-  var shootingType = $( checkbox ).val();
-  
-  
-  if( typeof( isChecked ) != "undefined" && isChecked === true ){
-   
-   showShootingsFor( shootingType );
-   
-  }else{
-   
-   hideShootingsFor( shootingType );
-   
-  }
-  
- });
- 
+  var shootingType = $(this).val();
+
+  $('div.spot, section')
+    .filter('.' + shootingType)
+    .toggle();
 }
-
-function showShootingsFor( type ){
- 
- $( spots.markers() ).each( function( m, markr ){
-     
-  var $m = $( markr.element );
-  if( $m.hasClass( type ) ){
-   $m.show();
-  }
-    
- }); 
-
-  $( "section" ).each( function( s, section ){
-  
-  var $s = $( section );
-  if( $s.hasClass( type ) ){
-   $s.show();
-  }
-  
-    }); 
- 
-}
-
-function hideShootingsFor( type ){
- 
- $( spots.markers() ).each( function( m, markr ){
-     
-  var $m = $( markr.element );
-  if( $m.hasClass( type ) ){
-   $m.hide();
-  }
-    
- }); 
-
-  $( "section" ).each( function( s, section ){
-  
-  var $s = $( section );
-  if( $s.hasClass( type ) ){
-   $s.hide();
-  }
-  
-    });
-
-
-}
-
-
 
 $(document).ready( function(){
- ArticleScrollChecker.initialize();
+  ArticleScrollChecker.initialize();
 
+  $( ".close-popout" ).on( "click touchend", function( e ){
+    e.stopPropagation();
 
- $( ".close-popout" ).on( "click touchend", function( e ){
-  e.stopPropagation();
+    $('div.spot, section')
+      .removeClass( "active" );
+  });
 
-  $( spots.markers() ).each( function( m, markr ){
-     $( markr.element ).removeClass( "active" );
-    });
-
-   $( "section" ).each( function( s, section ){
-   $( section ).removeClass( "active" );
-    }); 
-
- });
- 
- $( "#legend-form input[type=checkbox]" ).on( "click", handleCheckbox );
- 
-
+  $( "#legend-form input[type=checkbox]" ).on( "click", handleCheckbox );
 });
 </script>
 
