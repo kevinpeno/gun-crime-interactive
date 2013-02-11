@@ -13,11 +13,7 @@ body
 	color: #333;
 	margin: 0;
 	min-height: 151px;
-	moz-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
-	ms-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
-	o-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
 	padding: 0.25em 1em 0;
-	webkit-box-shadow: inset 0px -5px 30px 2px #C9C9C9;
 }
 header span
 {
@@ -104,12 +100,10 @@ header span
 {
 	bottom: 0px;
 	left: 0;
-	moz-transition: opacity 250ms;
 	position: absolute;
 	right: 20%;
 	top: 0px;
 	transition: opacity 250ms;
-	webkit-transition: opacity 250ms;
 }
 #legend
 {
@@ -135,12 +129,10 @@ article
 	bottom: 0;
 	box-shadow: -1px 6px 10px #333;
 	min-width: 280px;
-	moz-box-shadow: -1px 6px 10px #333;
 	overflow: auto;
 	position: absolute;
 	right: 0;
 	top: 155px;
-	webkit-box-shadow: -1px 6px 10px #333;
 	width: 20%;
 }
 article header,
@@ -173,12 +165,8 @@ article h2 span
 	border-radius: 5px;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
 	margin: 0.5em 0 1em 0;
-	moz-border-radius: 5px;
-	moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
 	padding: 0.35em;
 	text-align: center;
-	webkit-border-radius: 5px;
-	webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
 }
 section h2 span
 {
@@ -476,11 +464,9 @@ a
 	left: 50%;
 	line-height: 1.4em;
 	margin: 0px 0px 10px -150px;
-	moz-box-shadow: -1px 3px 10px #888;
 	padding: 20px;
 	position: absolute;
 	text-shadow: rgba(255,255,255,0.25) 0px 0px 4px;
-	webkit-box-shadow: -1px 3px 10px #888;
 	width: 260px;
 }
 .spot section p
@@ -516,7 +502,7 @@ a
 	font-size: 1.5em;
 	font-weight: bold;
 	letter-spacing: 1px;
-	position: absolute;	
+	position: absolute;
 }
 .close-popout:hover
 {
@@ -608,7 +594,7 @@ article section.selfdefense.active, .spot.selfdefense
 		margin-top: 0px;
 	}
 	article,
-		.summary, 
+		.summary,
 		#legend,
 		#footer,
 		small.tooltip,
